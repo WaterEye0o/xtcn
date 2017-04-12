@@ -37,6 +37,7 @@ app.use(function (req, res, next) {
    console.log('time: ',new Date().toLocaleTimeString());
    console.log('query:',req.query);
    console.log('body:',req.body);
+   console.log('你个傻逼'）；
    console.log('sessionsign:',req.session.sign);
     next();
 });
